@@ -1,0 +1,199 @@
+body{
+    font-family:  "montserrat";
+}
+
+/* section-1 - Navbar & title */
+
+#title{
+    background-color: #ff4c68;
+    padding:2% 10%;
+    color: whitesmoke;
+}
+
+.navbar{
+    padding: 0 0;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.nav-link{
+    font-size: larger;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1.5;
+    
+}
+
+.nav-item{
+    
+    padding: 0 5%;
+}
+
+.rotated{
+    margin-left: 50px;
+    transform: rotate(25deg);
+    width: 300px;
+   
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+    font-family: "montserrat";
+}
+
+/* section 2 - features */
+
+#features{
+    padding: 50px 100px 25px;
+}
+
+#features .col-lg-4{
+    text-align: center;
+    padding: 100px 30px;
+}   
+
+.fa-solid{
+    color:#ef8172;
+    font-size: 3.5rem;
+}
+
+.fa-solid:hover{
+    color:#ff4c68;
+}
+
+#features h3{
+    font-family: "montserrat";
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 2;
+}
+
+#features p{
+    color: #8f8f8f;
+    
+}
+
+/* Testimonials  */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    
+    color:#fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin:10px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.press-image{
+    width:20%;
+    margin: 5px 20px;
+}
+
+.carousel-item{
+    padding: 100px;
+}
+
+.testimonial-text{
+    /* padding: 0 200px; */
+    margin:0 100px;
+}
+
+/* Pricing */
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+
+.card{
+    margin: 50px;
+}
+
+/* Call to action */
+
+#cta{
+    text-align: center;
+    padding: 50px 100px;
+    background-color: #ff4c68;
+    
+    
+}
+
+.cta-text{
+    margin: 20px;
+    /* padding: 80px; */
+    color: #fff;
+    font-size: 400%;
+    
+}
+
+/* footer */
+
+#footer{
+    padding: 100px;
+    text-align: center;
+
+}
+
+.social-media{
+    
+}
+
+.social-media-icon{
+    margin: 0 20px;
+    font-size: 200%;
+}
+
+#footer p{
+     color:#8f8f8f;
+     font-family:"montserrat";
+     font-size: 110%;
+}
+
+/* animation */
+
+@media (max-width:989px) {
+    .rotated{
+        position: static;
+        transform: rotate(0deg);
+        animation: test-anime 2.5s ;
+
+    #title{
+        text-align: center;
+    }
+
+}
+
+@-webkit-keyframes test-anime {
+    
+    from{
+        position:absolute;
+        transform: rotate(25deg);
+        
+    }
+    to {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+
+
